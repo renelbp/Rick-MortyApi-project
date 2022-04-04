@@ -1,0 +1,8 @@
+package com.example.rickandmortyapp.model
+
+data class Episode(
+    val id: Int = 0,
+    val name: String = "",
+    val airDate: String = "",
+    val episode: String = ""
+)
