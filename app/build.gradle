@@ -2,7 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'org.jetbrains.kotlin.kapt'
-
+    id 'androidx.navigation.safeargs.kotlin'
 }
 
 //Epoxy
@@ -31,6 +31,7 @@ android {
     buildFeatures{
         viewBinding true
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -46,6 +47,11 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    //navigation
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.4.1'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.4.1'
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
@@ -66,4 +72,11 @@ dependencies {
     implementation 'com.airbnb.android:epoxy-paging:4.4.1'
     //Paging
     implementation("androidx.paging:paging-runtime-ktx:3.1.1")
+
+    //Networking
+    implementation("com.squareup.okhttp3:logging-interceptor:4.9.1")
+    debugImplementation "com.github.chuckerteam.chucker:library:3.5.2"
+    releaseImplementation "com.github.chuckerteam.chucker:library-no-op:3.5.2"
+
+
 }

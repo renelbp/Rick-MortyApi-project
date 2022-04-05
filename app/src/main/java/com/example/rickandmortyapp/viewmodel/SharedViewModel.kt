@@ -18,7 +18,7 @@ class SharedViewModel:ViewModel() {
     fun refreshCharacter(characterId: Int){
         viewModelScope.launch {
             val response = repository.getCharacterById(characterId)
-            _characterByIdLiveData.postValue(response)
+            _characterByIdLiveData.postValue(response!!)
         }
 
     }

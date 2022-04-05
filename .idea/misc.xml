@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/RickAndMortyApp/app/src/main/res/layout/activity_character_details.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioProjects/RickAndMortyApp/app/src/main/res/layout/activity_character_list.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioProjects/RickAndMortyApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/RickAndMortyApp/app/src/main/res/layout/activity_nav_graph.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/RickAndMortyApp/app/src/main/res/layout/fragment_character_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/RickAndMortyApp/app/src/main/res/layout/fragment_character_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/RickAndMortyApp/app/src/main/res/layout/fragment_character_list_fragmet.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioProjects/RickAndMortyApp/app/src/main/res/layout/model_character_details.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioProjects/RickAndMortyApp/app/src/main/res/layout/model_character_details_data.xml" value="0.4" />
         <entry key="..\:/AndroidStudioProjects/RickAndMortyApp/app/src/main/res/layout/model_character_details_header.xml" value="0.25416666666666665" />
